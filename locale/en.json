@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Window always on top",
+    "description": "Adds a pin button to the Windows desktop title bar. Click it to keep the app above other windows; the button turns light blue while pinned, grey and disabled while the window is maximized, and uses the theme's normal surface colour otherwise (white in the light theme). Maximizing pauses the pin and restoring the window resumes it; the button is hidden in fullscreen and in ordinary browsers. Only the Windows desktop app supports this; disabling the plugin removes the button and clears the pin.",
+    "detail": "docs/DETAIL.md"
+  }
+}
