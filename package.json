@@ -1,0 +1,56 @@
+{
+  "name": "dsh-pin-window",
+  "version": "1.0.0",
+  "description": "Windows desktop title-bar pin that keeps the DeepSeek Harness window always on top.",
+  "license": "MIT",
+  "author": "dsh-pin-window contributors",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "win32.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "always-on-top",
+    "window-pin",
+    "windows"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.1 <0.3.0-0",
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/01TY10/dsh-pin-window.git"
+  },
+  "homepage": "https://github.com/01TY10/dsh-pin-window#readme",
+  "bugs": {
+    "url": "https://github.com/01TY10/dsh-pin-window/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  }
+}

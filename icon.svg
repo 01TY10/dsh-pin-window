@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="Pin">
+  <defs>
+    <linearGradient id="dsh-pin-icon-blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7AA8FF"/>
+      <stop offset="1" stop-color="#4D76E6"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(5.28 4.86) scale(1.06)">
+    <path d="M16 3H8a1 1 0 0 0 0 2h1v5.5L6.5 13a1 1 0 0 0 .7 1.7H11v5.8l.6 1.2.6-1.2v-5.8h3.8a1 1 0 0 0 .7-1.7L14 10.5V5h1a1 1 0 0 0 0-2z" fill="url(#dsh-pin-icon-blue)"/>
+  </g>
+</svg>
