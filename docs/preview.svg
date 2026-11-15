@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300">
+  <defs>
+    <linearGradient id="dsh-pin-preview-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8FAFE"/>
+      <stop offset="1" stop-color="#E9EFF9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="300" rx="24" fill="url(#dsh-pin-preview-bg)"/>
+
+  <!-- Window card 1: restored, not pinned. -->
+  <rect x="75" y="65" width="150" height="170" rx="12" fill="#FFFFFF"/>
+  <rect x="75" y="65" width="150" height="30" rx="12" fill="#EEF2F8"/>
+  <rect x="75" y="81" width="150" height="14" fill="#EEF2F8"/>
+  <rect x="165" y="70" width="20" height="20" rx="5" fill="#EEF2F8"/>
+  <g transform="translate(167 71.5) scale(0.667)">
+    <path d="M16 3H8a1 1 0 0 0 0 2h1v5.5L6.5 13a1 1 0 0 0 .7 1.7H11v5.8l.6 1.2.6-1.2v-5.8h3.8a1 1 0 0 0 .7-1.7L14 10.5V5h1a1 1 0 0 0 0-2z" fill="#6E7683"/>
+  </g>
+  <rect x="191" y="79.2" width="7" height="1.6" rx="0.8" fill="#AAB3C2"/>
+  <rect x="201" y="76" width="7" height="7" rx="1" fill="none" stroke="#AAB3C2" stroke-width="1.5"/>
+  <path d="M211 76l7 7M218 76l-7 7" fill="none" stroke="#AAB3C2" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="87" y="107" width="126" height="54" rx="8" fill="#F4F7FC"/>
+  <rect x="87" y="171" width="90" height="6" rx="3" fill="#E6ECF5"/>
+  <rect x="87" y="183" width="70" height="6" rx="3" fill="#E6ECF5"/>
+  <rect x="87" y="195" width="100" height="6" rx="3" fill="#E6ECF5"/>
+  <rect x="87" y="207" width="55" height="6" rx="3" fill="#E6ECF5"/>
+  <rect x="75" y="65" width="150" height="170" rx="12" fill="none" stroke="#DDE4F0"/>
+
+  <!-- Window card 2: restored, pinned (light blue button). -->
+  <rect x="245" y="65" width="150" height="170" rx="12" fill="#FFFFFF"/>
+  <rect x="245" y="65" width="150" height="30" rx="12" fill="#EEF2F8"/>
+  <rect x="245" y="81" width="150" height="14" fill="#EEF2F8"/>
+  <rect x="335" y="70" width="20" height="20" rx="5" fill="#E4EDFD"/>
+  <g transform="translate(337 71.5) scale(0.667)">
+    <path d="M16 3H8a1 1 0 0 0 0 2h1v5.5L6.5 13a1 1 0 0 0 .7 1.7H11v5.8l.6 1.2.6-1.2v-5.8h3.8a1 1 0 0 0 .7-1.7L14 10.5V5h1a1 1 0 0 0 0-2z" fill="#4176E6"/>
+  </g>
+  <rect x="361" y="79.2" width="7" height="1.6" rx="0.8" fill="#AAB3C2"/>
+  <rect x="371" y="76" width="7" height="7" rx="1" fill="none" stroke="#AAB3C2" stroke-width="1.5"/>
+  <path d="M381 76l7 7M388 76l-7 7" fill="none" stroke="#AAB3C2" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="257" y="107" width="126" height="54" rx="8" fill="#F4F7FC"/>
+  <rect x="257" y="171" width="90" height="6" rx="3" fill="#E6ECF5"/>
+  <rect x="257" y="183" width="70" height="6" rx="3" fill="#E6ECF5"/>
+  <rect x="257" y="195" width="100" height="6" rx="3" fill="#E6ECF5"/>
+  <rect x="257" y="207" width="55" height="6" rx="3" fill="#E6ECF5"/>
+  <rect x="245" y="65" width="150" height="170" rx="12" fill="none" stroke="#C6D7F8" stroke-width="1.5"/>
+
+  <!-- Window card 3: maximized, pin disabled (grey button). -->
+  <rect x="415" y="65" width="150" height="170" rx="12" fill="#FFFFFF"/>
+  <rect x="415" y="65" width="150" height="30" rx="12" fill="#EEF2F8"/>
+  <rect x="415" y="81" width="150" height="14" fill="#EEF2F8"/>
+  <rect x="505" y="70" width="20" height="20" rx="5" fill="#EEF2F8"/>
+  <g transform="translate(507 71.5) scale(0.667)">
+    <path d="M16 3H8a1 1 0 0 0 0 2h1v5.5L6.5 13a1 1 0 0 0 .7 1.7H11v5.8l.6 1.2.6-1.2v-5.8h3.8a1 1 0 0 0 .7-1.7L14 10.5V5h1a1 1 0 0 0 0-2z" fill="#6F7683"/>
+  </g>
+  <rect x="531" y="79.2" width="7" height="1.6" rx="0.8" fill="#AAB3C2"/>
+  <rect x="541" y="76" width="7" height="7" rx="1" fill="none" stroke="#AAB3C2" stroke-width="1.5"/>
+  <path d="M551 76l7 7M558 76l-7 7" fill="none" stroke="#AAB3C2" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="427" y="107" width="126" height="54" rx="8" fill="#F4F7FC"/>
+  <rect x="427" y="171" width="90" height="6" rx="3" fill="#E6ECF5"/>
+  <rect x="427" y="183" width="70" height="6" rx="3" fill="#E6ECF5"/>
+  <rect x="427" y="195" width="100" height="6" rx="3" fill="#E6ECF5"/>
+  <rect x="427" y="207" width="55" height="6" rx="3" fill="#E6ECF5"/>
+  <rect x="415" y="65" width="150" height="170" rx="12" fill="none" stroke="#DDE4F0"/>
+
+  <!-- A subtle top-edge highlight keeps the illustration readable on dark pages. -->
+  <rect x="24" y="24" width="592" height="252" rx="18" fill="none" stroke="#FFFFFF" stroke-opacity="0.7"/>
+</svg>
